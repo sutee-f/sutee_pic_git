@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296873056136",
+    "project_id": "flag-pic-d497b",
+    "storage_bucket": "flag-pic-d497b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296873056136:android:ac0310f6b07dfdb0f74c3d",
+        "android_client_info": {
+          "package_name": "com.example.sutee_pic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQoHE5vYxua4qsbJqdkRwpBLxMJMCYUZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
