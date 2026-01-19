@@ -1,3 +1,4 @@
+//โปรแกรมขาย ธงชาติ Thailand
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -44,17 +45,11 @@ class _HomePageState extends State<HomePage> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-                Image.asset(
-      'assets/thai.png',
-      width: 150
-    ),
+            Image.asset('assets/thai.png', width: 150),
             const Text("ธงชาติไทย ราคา 10 บาท"),
             TextField(controller: thaiCtrl, keyboardType: TextInputType.number),
             const SizedBox(height: 20),
-                Image.asset(
-      'assets/cam.png',
-      width: 150
-    ),
+            Image.asset('assets/cam.png', width: 150),
             const Text("ธงชาติกัมพูชา ราคา 2 บาท"),
             TextField(controller: camCtrl, keyboardType: TextInputType.number),
             const Spacer(),
